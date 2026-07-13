@@ -1,0 +1,48 @@
+/Users/genojoshua/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/genojoshua/Library/Python/3.9/lib/python/site-packages/transformers/models/bart/configuration_bart.py:177: UserWarning: Please make sure the config includes `forced_bos_token_id=0` in future versions. The config can simply be saved and uploaded again to be fixed.
+  warnings.warn(
+INFO:     Started server process [89289]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+/Users/genojoshua/Library/Python/3.9/lib/python/site-packages/transformers/generation/utils.py:1733: UserWarning: You have modified the pretrained model configuration to control generation. This is a deprecated strategy to control generation and will be removed in v5. Please use and modify the model generation configuration (see https://huggingface.co/docs/transformers/generation_strategies#default-text-generation-configuration )
+  warnings.warn(
+Loading summarization model: /Users/genojoshua/Desktop/Projects/Synod/backend/trained_models/summarizer...
+[NOTE] Low memory detected (8.0GB). Using CPU instead of MPS for stability.
+Model loaded on cpu with optimized precision.
+Loading embedding model: /Users/genojoshua/Desktop/Projects/Synod/backend/trained_models/concept_extractor on mps...
+INFO:     127.0.0.1:53165 - "POST /analyze-file HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53236 - "POST /analyze-file HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54596 - "POST /analyze-file HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56261 - "POST /analyze-file HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58995 - "OPTIONS /auth/verify HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58997 - "OPTIONS /auth/verify HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58995 - "POST /auth/verify HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58999 - "POST /auth/verify HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59011 - "POST /analyze-file HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59081 - "POST /analyze-file HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60398 - "OPTIONS /auth/verify HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60399 - "OPTIONS /auth/verify HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60398 - "POST /auth/verify HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60402 - "POST /auth/verify HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60969 - "POST /auth/verify HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60971 - "POST /auth/verify HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61761 - "POST /analyze-file HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61804 - "POST /analyze-file HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62483 - "OPTIONS /auth/verify HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62485 - "OPTIONS /auth/verify HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62483 - "POST /auth/verify HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62485 - "POST /auth/verify HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62487 - "POST /analyze-file HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62706 - "POST /analyze-file HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62842 - "POST /analyze-file HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64433 - "POST /analyze-file HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65157 - "POST /analyze-file HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65190 - "OPTIONS /auth/verify HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65192 - "OPTIONS /auth/verify HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65190 - "POST /auth/verify HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65192 - "POST /auth/verify HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65194 - "POST /analyze-file HTTP/1.1" 200 OK
+/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/multiprocessing/resource_tracker.py:216: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
