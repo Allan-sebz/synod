@@ -17,7 +17,6 @@
 - **Modern Web App:** React frontend with a FastAPI backend, supporting authentication (email/password + OAuth) and lecture analysis history.
 
 ## High-Level Architecture
-
 Synod is built as a **modular pipeline** exposed via a REST API and consumed by a React UI:
 
 - **Backend (`backend/`) – FastAPI + NLP pipeline**
